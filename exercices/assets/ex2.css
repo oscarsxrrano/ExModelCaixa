@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+.chat-container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #b9b9b9;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.message {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: rgb(214, 223, 231);
+    border-radius: 5px;
+}
+
+.message:hover{
+    background-color: rgb(183, 193, 202);
+}
