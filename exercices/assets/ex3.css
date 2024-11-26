@@ -11,7 +11,7 @@ body {
     left: 0;
     width: 100%;
     padding: 15px;
-    background-color: #007BFF;
+    background-color: #26008f;
     color: #fff;
     text-align: center;
 }
@@ -30,6 +30,8 @@ body {
 }
 
 .content {
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
     margin-left: 200px;
 }
