@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 221, 108);
+    padding: 5px;
+}
+
+button {
+    font-size: 15px;
+    background-color: rgb(48, 100, 48);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(16, 73, 21);
+}
+
+.btn1 {
+    border: 10px dotted red;
+    margin: 50px;
+    padding: 60px;
+}
+
+.btn2 {
+    border: 10px dotted red;
+    margin: 50px;
+    padding: 60px 40px;
+}
+
+.btn3 {
+    border: 10px dotted red;
+    margin: 50px;
+    padding: 60px 40px 20px;
+}
+
+.btn4 {
+    border: 10px dotted red;
+    margin: 50px;
+    padding: 60px 40px 20px 0px;
+}
